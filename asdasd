@@ -142,35 +142,38 @@ function NEVERLOSE:Theme(name)
 		NEVERLOSE.Themes.MainColor = Color3.fromRGB(19, 176, 243)
 		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(3, 6, 25)
 		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(0, 17, 35)
-		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(225, 107, 255) -- Magenta rengi
-        NEVERLOSE.Themes.StrokeTransparency = 0.2 -- %50 şeffaflık
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(150, 50, 180) -- Daha kapalı magenta
+		NEVERLOSE.Themes.StrokeTransparency = 1 -- Tamamen şeffaf
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(2, 5, 22)
 	end
 
 	if name == "nightly" then
 		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(74, 69, 77)
 		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(16, 16, 16)
-		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(225, 107, 255)
-		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(186, 93, 189)
+		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(150, 50, 180)
+		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(120, 40, 150)
 		NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 140, 0)
-		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(225, 107, 255)
+		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(150, 50, 180)
 		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(26, 26, 26)
-		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(255, 122, 248)
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(150, 50, 180)
+		NEVERLOSE.Themes.StrokeTransparency = 1 -- Tamamen şeffaf
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(26, 26, 26)
 	end
 
 	if name == "dark" then
-		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(225, 107, 255)
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(150, 50, 180)
 		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(8, 8, 8)
 		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(8, 8, 8)
 		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(25, 25, 25)
 		NEVERLOSE.Themes.MainColor = Color3.fromRGB(0, 172, 247)
-		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(217, 93, 255)
-		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(255, 120, 248)
-		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(225, 126, 255)
+		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(140, 40, 170)
+		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(150, 50, 180)
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(150, 50, 180)
+		NEVERLOSE.Themes.StrokeTransparency = 1 -- Tamamen şeffaf
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(13, 13, 13)
 	end
 end
+
 
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local WindowFunctinos={}
