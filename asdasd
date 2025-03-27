@@ -121,15 +121,15 @@ local NEVERLOSE = {
 		HeaderColor = Color3.fromRGB(47, 47, 47),
 		TraceColor = Color3.fromRGB(100, 100, 100),
 		MainColor = Color3.fromRGB(255, 140, 0),
-		MainColorDrop = Color3.fromRGB(225, 107, 255),
-		SectionColor = Color3.fromRGB(225, 107, 255),
-		StrokeColor = Color3.fromRGB(225, 107, 255),
-		ButtonBlackgroundColor = Color3.fromRGB(225, 107, 255)
+		MainColorDrop = Color3.fromRGB(150, 50, 180),
+		SectionColor = Color3.fromRGB(150, 50, 180),
+		StrokeColor = Color3.fromRGB(150, 50, 180),
+		StrokeTransparency = 1, -- Tamamen şeffaf
+		ButtonBlackgroundColor = Color3.fromRGB(150, 50, 180)
 	},
 	_Version="10.C",
 	_Name="NEVERLOSE"
 }
-
 print(NEVERLOSE._Name..":",NEVERLOSE._Version..':',[[Inspired By: https://neverlose.cc/]],": UI BY 3345-C-A-T-S-U-S","__ui")
 
 function NEVERLOSE:Theme(name)
