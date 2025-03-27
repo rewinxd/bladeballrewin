@@ -125,7 +125,10 @@ local NEVERLOSE = {
 		SectionColor = Color3.fromRGB(150, 50, 180),
 		StrokeColor = Color3.fromRGB(150, 50, 180),
 		StrokeTransparency = 1, -- Tamamen şeffaf
-		ButtonBlackgroundColor = Color3.fromRGB(150, 50, 180)
+		ButtonBlackgroundColor = Color3.fromRGB(150, 50, 180),
+		BlackgroundTransparency = 1, -- Arka plan tamamen şeffaf
+		SectionTransparency = 1, -- Bölüm tamamen şeffaf
+		ButtonTransparency = 1 -- Buton tamamen şeffaf
 	},
 	_Version="10.C",
 	_Name="NEVERLOSE"
