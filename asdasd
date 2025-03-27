@@ -114,24 +114,26 @@ local function GetImageData(name:string,image:ImageLabel)
 end
 
 local NEVERLOSE = {
-	auto_function = {},
-	Themes = {
-		BlackgroundColor = Color3.fromRGB(43, 43, 43),
-		BlackColor = Color3.fromRGB(16, 16, 16),
-		HeaderColor = Color3.fromRGB(47, 47, 47),
-		TraceColor = Color3.fromRGB(100, 100, 100),
-		MainColor = Color3.fromRGB(255, 140, 0),
-		MainColorDrop = Color3.fromRGB(150, 50, 180),
-		SectionColor = Color3.fromRGB(150, 50, 180),
-		StrokeColor = Color3.fromRGB(150, 50, 180),
-		StrokeTransparency = 1, -- Tamamen şeffaf
-		ButtonBlackgroundColor = Color3.fromRGB(150, 50, 180),
-		BlackgroundTransparency = 1, -- Arka plan tamamen şeffaf
-		SectionTransparency = 1, -- Bölüm tamamen şeffaf
-		ButtonTransparency = 1 -- Buton tamamen şeffaf
-	},
-	_Version="10.C",
-	_Name="NEVERLOSE"
+    auto_function = {},
+    Themes = {
+        -- Renkler (Alpha = 0)
+        BlackgroundColor = Color3.fromRGB(43, 43, 43),
+        MainColor = Color3.fromRGB(255, 140, 0),
+        MainColorDrop = Color3.fromRGB(150, 50, 180),
+        
+        -- Tüm şeffaflık ayarları
+        StrokeTransparency = 1,
+        BlackgroundTransparency = 1,
+        SectionTransparency = 1,
+        ButtonTransparency = 1,
+        
+        -- Ekstra şeffaflık için
+        TextTransparency = 1, -- Yazılar için
+        ImageTransparency = 1, -- Resimler için
+        ScrollBarTransparency = 1 -- Scrollbar için
+    },
+    _Version = "10.C",
+    _Name = "NEVERLOSE"
 }
 print(NEVERLOSE._Name..":",NEVERLOSE._Version..':',[[Inspired By: https://neverlose.cc/]],": UI BY 3345-C-A-T-S-U-S","__ui")
 
