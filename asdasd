@@ -133,19 +133,18 @@ local NEVERLOSE = {
 print(NEVERLOSE._Name..":",NEVERLOSE._Version..':',[[Inspired By: https://neverlose.cc/]],": UI BY 3345-C-A-T-S-U-S","__ui")
 
 function NEVERLOSE:Theme(name)
-    name = tostring(name or "original"):lower()
-    if name == "original" then
-        NEVERLOSE.Themes.BlackColor = Color3.new(0, 0, 0) -- Siyah renk ama şeffaf
-        NEVERLOSE.Themes.BackgroundColor = Color3.new(0, 0, 0) -- Tam şeffaf arka plan
-        NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(7, 7, 17)
-        NEVERLOSE.Themes.TraceColor = Color3.fromRGB(0, 0, 0)
-        NEVERLOSE.Themes.MainColor = Color3.fromRGB(223, 255, 0)
-        NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(0, 0, 0)
-        NEVERLOSE.Themes.SectionColor = Color3.fromRGB(0, 0, 0)
-        NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(0, 0, 0)
-        NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(2, 5, 22)
-    end
-end
+	name = tostring(name or "original"):lower()
+	if name == "original" then
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(0, 0, 0)
+		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(0, 0, 0)
+		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(7, 7, 17)
+		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(0, 0, 0)
+		NEVERLOSE.Themes.MainColor = Color3.fromRGB(223, 255, 0)
+		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(0, 0, 0)
+		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(0, 0, 0)
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(0, 0, 0)
+		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(2, 5, 22)
+	end
 
 	if name == "nightly" then
 		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(0, 0, 0)
@@ -170,6 +169,7 @@ end
 		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(0, 0, 0)
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(13, 13, 13)
 	end
+end
 
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local WindowFunctinos={}
