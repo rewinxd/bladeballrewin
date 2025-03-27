@@ -137,11 +137,6 @@ function NEVERLOSE:Theme(name)
     if name == "original" then
         NEVERLOSE.Themes.BlackColor = Color3.new(0, 0, 0) -- Siyah renk ama şeffaf
         NEVERLOSE.Themes.BackgroundColor = Color3.new(0, 0, 0) -- Tam şeffaf arka plan
-        
-        -- Transparency ayarları için ekstra parametreler (eğer kütüphane destekliyorsa)
-        NEVERLOSE.Themes.BackgroundTransparency = 1 -- %100 şeffaflık
-        NEVERLOSE.Themes.BlackTransparency = 1 -- %100 şeffaflık
-
         NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(7, 7, 17)
         NEVERLOSE.Themes.TraceColor = Color3.fromRGB(0, 0, 0)
         NEVERLOSE.Themes.MainColor = Color3.fromRGB(223, 255, 0)
@@ -175,7 +170,6 @@ end
 		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(0, 0, 0)
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(13, 13, 13)
 	end
-end
 
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local WindowFunctinos={}
